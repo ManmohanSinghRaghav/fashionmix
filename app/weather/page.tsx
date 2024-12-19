@@ -32,7 +32,7 @@ const outfitSuggestions = {
 }
 
 export default function Weather() {
-  const [weather, setWeather] = useState('sunny')
+  const [weather] = useState('sunny')
 
   const WeatherIcon = weatherIcons[weather as keyof typeof weatherIcons]
 
