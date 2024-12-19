@@ -55,7 +55,7 @@ export default function Wardrobe() {
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center">
           <div className="bg-white p-4 rounded-lg">
             <h2 className="text-lg font-semibold mb-2">Add New Item</h2>
-            <p>This is where you'd add UI for uploading or capturing a new item.</p>
+            <p>This is where you&apos;d add UI for uploading or capturing a new item.</p>
             <button
               className="mt-4 bg-blue-500 text-white px-4 py-2 rounded"
               onClick={() => setIsAddingItem(false)}

@@ -41,7 +41,7 @@ export default function Weather() {
       <h1 className="text-2xl font-bold mb-4">Weather-Based Suggestions</h1>
       <div className="bg-blue-100 rounded-lg p-4 mb-6 flex items-center justify-between">
         <div>
-          <p className="text-lg font-semibold">Today's Weather</p>
+          <p className="text-lg font-semibold">Today&apos;s Weather</p>
           <p className="text-sm text-gray-600">New York, NY</p>
           <div className="flex items-center mt-2">
             <Thermometer className="h-5 w-5 text-red-500 mr-1" />
